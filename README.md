@@ -1,12 +1,16 @@
 *NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
 
 
-# Your Project Title Here
+# Operationalizing Machine Learning in Azure
 
-*TODO:* Write an overview to your project.
+This submission is part of the Udacity Azure Machine Learing Nanodegree. In the first part we use the Auto ML in the Azure Machine Learning Workspace to train a model on the Bankmarketing Dataset.
+After that we deployed the trained model and consume it. 
+In the second part we create, publish and consume a pipeline that also includes the AutoMl functionalities.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step.
+
+![archtitecture](./screenshots/architecture_submission.PNG)
+
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
