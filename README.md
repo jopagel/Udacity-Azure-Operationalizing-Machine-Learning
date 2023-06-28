@@ -70,7 +70,7 @@ Then we started the server by running serve.py file in order to get insights int
 
 ![archtitecture](./screenshots/swagger_submission2.PNG)
 
-##6 Consuming the deployed Endpoint
+## 6 Consuming the deployed Endpoint
 
 After deploying the best model, we can consume it by calling the endpoint. To do so, we need to adapt the endpoint uri 
 and the key from the deployed model consume section in the endpoints.py and run the latter file:
