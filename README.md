@@ -25,28 +25,28 @@ Part2:
 
 ## Key Steps
 
-##Part 1:
+## Part 1:
 
-##1 Registered Dataset 
+## 1 Registered Dataset 
 
 In the first step we uploaded and registered the Bank Marketing dataset:
 
 ![archtitecture](./screenshots/dataset_submission.PNG)
 
-##2 Create AutoML Experiment 
+## 2 Create AutoML Experiment 
 
 In the next step, we created an Azure AutoML model using the registered bank marketing dataset. Thereby, we created a compute cluster
 to run various models using different algorithms within the AutoML experiment.
 
 ![archtitecture](./screenshots/finished_model_submission.PNG)
 
-##3 Best performing run
+## 3 Best performing run
 
 The best resulting run was a VotingEnsemble, which reached a weighted AUC of 94.77%. We subsequently deployed this model.
 
 ![archtitecture](./screenshots/best_model_submission.PNG)
 
-##4 Enable application insights
+## 4 Enable application insights
 
 In order to enable logging, we downloaded the configuration file from Azure workspace, added it to the current working directory 
 and set service.update(enable_app_insights=True) in the logs.py file to enable application insights. After that we ran the 
@@ -59,7 +59,7 @@ After that, we were able to monitor the Application Insigts in the Azure ML Stud
 ![archtitecture](./screenshots/application_insights_submission.PNG)
 
 
-##5 Configure Swagger Docs
+## 5 Configure Swagger Docs
 
 In the next step, we configured the swagger docs. Thereby we installed swagger by adapting the port number in the bash 
 script. After that we ran the script and entered the localhost:
@@ -78,9 +78,9 @@ and the key from the deployed model consume section in the endpoints.py and run 
 ![archtitecture](./screenshots/endpoint_submission.PNG)
 
 
-##Part 2:
+## Part 2:
 
-##7 Create, deploy and consume a Pipeline
+## 7 Create, deploy and consume a Pipeline
 
 To create and deploy the pipleine, we uploaded the sample notebook, made required changes and subsequently ran 
 the notebook. After the deployement we were able to consume the pipeline endpoint.
@@ -96,7 +96,7 @@ the notebook. After the deployement we were able to consume the pipeline endpoin
 
 ## Screen Recording
 
-You can find a live demo of my project in my [OneDrive](https://1drv.ms/v/s!Amadz-FCI1m3g_EKPMVwMkIkahg6kw?e=y42d5l).
+You can find a live demo of my project on my [OneDrive](https://1drv.ms/v/s!Amadz-FCI1m3g_EKPMVwMkIkahg6kw?e=y42d5l).
 
 ## Future Work
 
