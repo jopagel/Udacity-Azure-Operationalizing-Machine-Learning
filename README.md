@@ -96,7 +96,7 @@ the notebook. After the deployement we were able to consume the pipeline endpoin
 
 ## Screen Recording
 
-You can find a live demo of my project on my [OneDrive](https://www.youtube.com/watch?v=37JjRFef9_s).
+You can find a live demo of my project on my [YouTube](https://www.youtube.com/watch?v=37JjRFef9_s).
 
 ## Future Work
 
